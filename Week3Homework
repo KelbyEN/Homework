@@ -1,0 +1,30 @@
+let pizzaToppings = [sausage, pepperoni, cheese, bacon, onions]
+
+function greetCustomer() {
+  console.log("Welcome to Tonys! Our toppings are: [sausage, pepperoni, cheese, bacon, onions]")
+
+}
+for (i = 0 ; i < 4 ; i++) {
+  list += pizzaToppings[i] + " ";
+}
+function getPizzaOrder(size, crust, ...Toppings) {
+  console.log("One large thick crust pizza with x, y, z, ... coming up!")
+}
+function preparePizza([small, medium, large, ${pizzaToppings}, thin, thick]) {
+  console.log("Cooking pizza")
+}
+
+let preparePizza = {
+size: large,
+size: medium,
+size: small,
+crust: thin,
+crust: thick,
+toppings: ${pizzaToppings}
+};
+
+function servePizza = {
+  servePizza: pizza
+  console.log("Order up! Here's your large thick crust pizza with x, y, z, ... Enjoy!")
+}
+
