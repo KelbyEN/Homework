@@ -1,0 +1,38 @@
+h1 {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+article {
+
+  background-color: peachpuff;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: dotted;
+  border-bottom-width: 5px;
+    padding: 10px;
+
+
+
+
+}
+h2 {
+  color: gray
+}
+
+p {
+text-align: center;
+
+}
+
+footer {
+  background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
