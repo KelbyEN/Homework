@@ -1,4 +1,4 @@
-h1 {
+header {
     background-color: #666;
     padding: 30px;
     text-align: center;
@@ -15,11 +15,17 @@ article {
   border: dotted;
   border-bottom-width: 5px;
     padding: 10px;
+}
 
-
-
+.bio {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
 
 }
+
+
+
 h2 {
   color: gray
 }
