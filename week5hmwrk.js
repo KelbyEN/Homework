@@ -235,21 +235,19 @@
 ]
 
 /*create and print list of phone numbers*/
-Var a = ["586.493.6943 x140", "(775)976-6794 x41206","024-648-3804"]
-for(var i=0; i< a.length; i++)
-  console.log(a);
+const phoneNum = document.createElement("PhoneNum");
+console.log(phoneNum);
+
 
 /*create and print a list of website, email pairs*/
 
-    const info = (["email": "Sincere@april.biz","website": "hildegard.org"],
-    ["email": "Shanna@melissa.tv","website": "anastasia.net"],
-    ["email": "Nathan@yesenia.net","website": "ramiro.info"]);
-    for(var i=0; i< info.length; i++)
-  console.log(info);
+    const website = document.createElement("website");
+    const email = document.createElement("email");
+    console.log("website","email")
 
 
 
-console.log(`${"email"}` + `${"website"}`);
+
 
 
 
@@ -1458,15 +1456,16 @@ console.log(`${"email"}` + `${"website"}`);
 ]
 
 /*create a list of user n9's to do*/
-const n9 = ["todo1", "todo2", "todo3"];
-forEach(n9);
 
-  for(i=0; i<= 3; i++)
-    console.log("Please `{forEach}` today!")
-  ;
+const user9Tasks = data.filter(toDo => toDo.userId === 9);
+console.log(user9tasks);
+
+
+
 
 /*find user 9's incomplete task*/
-forEach() console.log(["completed": false]);
+const incompleteTasks = data.filter(task => task.completed === false);
+console.log(incompleteTasks);
 
 /*create a list of user 5 posts*/
 let user5 = ["hi", "hello", "welcome"]
